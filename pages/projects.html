@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+		<meta charset="utf-8">
+		<title>Cornell Data Science</title>
+		<meta name="generator" content="Bootply" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+		<link href="../css/bootstrap.min.css" rel="stylesheet">
+      <link rel="shortcut icon" href="../img/favicon.ico" type="image/x-icon">
+      <link rel="icon" href="../img/favicon.ico" type="image/x-icon">
+		<!--[if lt IE 9]>
+			<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
+		<link href="../css/styles.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="../js/projects.js"></script>
+	</head>
+<body>
+<div id="box">
+  <!-- sidebar -->
+  <div id="sidebar">
+    <!-- <a class="logo" href="#"> -->
+    <img src="../img/logo.png" class="cdslogo">
+    <!-- </a> -->
+    <ul class="nav">
+      <li class="active"><a href="../index.html">Home</a></li>
+      <li><a href="./projects.html">Projects</a></li>
+      <li><a href="./members.html">E-board</a></li>
+      <li><a href="./education.html">Training Program</a></li>
+      <li><a href="https://goo.gl/forms/JSeoOXMRPpdHlZpU2" target="_blank">Listserv Signup</a></li>
+    </ul>
+  </div>
+  <!-- /sidebar -->
+    
+    <!-- main -->
+  <div class="row" id="main">
+    <div class="column col-sm-12">
+      <div class="menubutton">
+        <a href="#menu-toggle" class="btn btn-default" id="menu-toggle">
+          <div class="menubar"></div>
+          <div class="menubar"></div>
+          <div class="menubar"></div>
+        </a>
+      </div>
+      <!-- padding -->
+      <div class="padding">
+
+        <!-- content -->
+        <div class="row projectSembtns">
+          <div class="col-sm-12" align="center">
+            <a href="#spring16"><button class="btn btn-primary"><b> Spring 2016 </b></button></a>
+            <a href="#fall15"><button class="btn btn-primary"><b> Fall 2015 </b></button></a>
+            <a href="#spring15"><button class="btn btn-primary"><b> Spring 2015 </b></button></a>
+    			  <a href="#fall14"><button class="btn btn-primary"><b> Fall 2014 </b></button></a>
+    			  <a href="#spring14"><button class="btn btn-primary"><b> Spring 2014 </b></button></a>
+          </div>
+        </div>
+
+        <div class="projects">
+          <div class="row page-divider" id="spring16">
+            <div class="col-sm-12">
+              Spring 2016
+            </div>
+          </div>
+
+          <div id="sp16">
+          </div>
+
+          <div class="row page-divider" id="fall15">
+            <div class="col-sm-12">
+              Fall 2015
+            </div>
+          </div>
+
+          <div id="fa15">
+          </div>
+
+          <div class="row page-divider" id="spring15">
+            <div class="col-sm-12">
+              Spring 2015
+            </div>
+          </div>
+
+          <div id="sp15">
+          </div>
+
+          <div class="row page-divider" id="fall14">
+            <div class="col-sm-12">
+              Fall 2014
+            </div>
+          </div>
+
+          <div id="fa14">
+          </div>
+
+          <div class="row page-divider" id="spring14">
+            <div class="col-sm-12">
+              Spring 2014
+            </div>
+          </div>
+
+          <div id="sp14">
+          </div>
+
+          <div class="row" id="footer">
+            <div class="col-sm-12">
+              <a href="#" class="pull-right">©Cornell Data Science</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- /padding -->
+    </div>
+    <!-- /main -->
+  </div>
+  <!-- /box -->    
+</div>
+<!-- script references -->
+<script src="../js/bootstrap.min.js"></script>
+<script>
+  $("#menu-toggle").click(function(e) {
+      e.preventDefault();
+      $("#box").toggleClass("toggled");
+      $("#menu-toggle").toggleClass("toggled");
+  });
+</script>
+</body>
+</html>

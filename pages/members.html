@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+		<meta charset="utf-8">
+		<title>Cornell Data Science</title>
+		<meta name="generator" content="Bootply" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+		<link href="../css/bootstrap.min.css" rel="stylesheet">
+    <link rel="shortcut icon" href="../img/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="../img/favicon.ico" type="image/x-icon">
+		<!--[if lt IE 9]>
+			<script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
+		<link href="../css/styles.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	</head>
+<body>
+<div id="box">
+  <!-- sidebar -->
+  <div id="sidebar">
+    <!-- <a class="logo" href="#"> -->
+    <img src="../img/white_logo.png" class="cdslogo">
+    <!-- </a> -->
+    <ul class="nav">
+      <li class="active"><a href="../index.html">Home</a></li>
+      <li><a href="./projects.html">Projects</a></li>
+      <li><a href="./members.html">E-board</a></li>
+      <li><a href="./education.html">Training Program</a></li>
+      <li><a href="https://goo.gl/forms/JSeoOXMRPpdHlZpU2" target="_blank">Listserv Signup</a></li>
+    </ul>
+  </div>
+  <!-- /sidebar -->
+    
+    <!-- main -->
+  <div class="row" id="main">
+    <div class="column col-sm-12">
+      <div class="menubutton">
+        <a href="#menu-toggle" class="btn btn-default" id="menu-toggle">
+          <div class="menubar"></div>
+          <div class="menubar"></div>
+          <div class="menubar"></div>
+        </a>
+      </div>
+      <div class="padding">
+          
+        <!-- content -->
+
+
+        <!-- EBoard -->
+        <div class="row page-divider top">
+          <div class="col-sm-12">
+            Executive Board
+          </div>
+        </div>
+        <div class="eboard">
+          <div class="row">
+            <div class="team-member" id="pmcContact">
+              <div class="col-sm-4 text-center">
+                <a href="https://www.linkedin.com/in/dae-won-kim-504546119/en" target="_blank"><img src="../img/eboard/daewon.jpg" class="img-respsonsive img-circle"></a>
+                <h4>Dae Won Kim</h4>
+                <p>President & Education Lead</p>
+              </div>
+            </div>
+            <div class="team-member" id="eduContact">
+              <div class="col-sm-4 text-center">
+                <a href="https://www.linkedin.com/in/chasethomas1" target="_blank"><img src="../img/eboard/chase.jpg" class="img-respsonsive img-circle"></a>
+                <h4>Chase Thomas</h4>
+                <p>Operations Lead</p>
+              </div>
+            </div>
+            <div class="team-member" id="marketingContact">
+              <div class="col-sm-4 text-center">
+                <a href="https://www.linkedin.com/in/jonathan-lee-a56173b5" target="_blank"><img src="../img/eboard/jon.jpg" class="img-respsonsive img-circle"></a>
+                <h4>Jon Lee</h4>
+                <p>Outreach Lead</p>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="team-member" id="commContact">
+              <div class="col-sm-4 text-center">
+                <a href="https://www.linkedin.com/in/chakrabortysourabh" target="_blank"><img src="../img/eboard/sourabh.jpg" class="img-respsonsive img-circle"></a>
+                <h4>Sourabh Chakraborty</h4>
+                <p>Marketing/Recruitment Lead</p>
+              </div>
+            </div>
+            <div class="team-member" id="financeContact">
+              <div class="col-sm-4 text-center">
+                <a href="https://www.linkedin.com/in/michelangeloharris" target="_blank"><img src="../img/eboard/mic.jpg" class="img-respsonsive img-circle"></a>
+                <h4>Michelangelo Harris</h4>
+                <p>Communications Lead</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row" id="footer">    
+          <div class="col-sm-12">
+            <a href="#" class="pull-right">©Cornell Data Science</a>
+          </div>
+        </div>
+      </div>
+        <!-- /padding -->
+    </div>
+      <!-- /main -->
+  </div>
+    <!-- /box -->    
+</div>
+<!-- script references -->
+<script src="../js/bootstrap.min.js"></script>
+<script>
+  $("#menu-toggle").click(function(e) {
+      e.preventDefault();
+      $("#box").toggleClass("toggled");
+      $("#menu-toggle").toggleClass("toggled");
+  });
+</script>
+</body>
+</html>

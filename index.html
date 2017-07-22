@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+		<meta charset="utf-8">
+		<title>Cornell Data Science</title>
+		<meta name="generator" content="Bootply" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+		<link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+		<!--[if lt IE 9]>
+			<script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
+		<link href="css/styles.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="./js/index.js"></script>
+	</head>
+<body>
+<div id="box" class="toggled">
+  <!-- sidebar -->
+  <div id="sidebar">
+    <!-- <a class="logo" href="#"> -->
+    <img src="img/white_logo.png" class="cdslogo">
+    <!-- </a> -->
+    <ul class="nav">
+      <li class="active"><a href="#">Home</a></li>
+      <li><a href="pages/projects.html">Projects</a></li>
+      <li><a href="pages/members.html">E-board</a></li>
+      <li><a href="pages/education.html">Training Program</a></li>
+      <li><a href="https://goo.gl/forms/D8IB3Am66cSUGlXT2" target="_blank">Listserv Signup</a></li>
+    </ul>
+  </div>
+  <!-- /sidebar -->
+        
+    <!-- main -->
+  <div class="row"  id="main">   
+    <div class="column col-sm-12">
+      <div class="menubutton">
+        <a href="#menu-toggle" class="btn btn-default toggled" id="menu-toggle">
+            <div class="menubar"></div>
+            <div class="menubar"></div>
+            <div class="menubar"></div>
+        </a>
+      </div>
+
+      <!-- padding -->                   
+      <div class="padding">
+        <div class = "row">
+          <div class="col-sm-12" align="center">
+            <img src="img/cropped_lander_pic.png" style="width:100%; height:100%;">
+          </div>
+        </div>
+
+        <!-- What We Do -->
+        <div class="row page-divider">
+          <div class="col-sm-12">
+              What We Do
+          </div>
+        </div>
+            
+        <div class="row wwdEntry">    
+          <div class="col-sm-4">
+            <div class="wwdEntryLabel">
+              Education
+            </div>
+            <p class="wwdEntryDes">
+              Train members in the cutting edge skills of data science through tech talks by industry experts and educational events led by faculty. Educational opportunities are open to the public.
+            </p>
+          </div>
+          <div class="col-sm-4">
+            <div class="wwdEntryLabel">
+              Project Experience
+            </div>
+            <p class="wwdEntryDes">
+              Offer a platform from which members can put knowledge into practice through client-facing projects with local businesses, national companies, and global corporations, as well as interest projects.
+            </p>
+          </div>
+          <div class="col-sm-4">
+            <div class="wwdEntryLabel">
+              Industry Exposure
+            </div>
+            <p class="wwdEntryDes">
+              Connect members to key personnel at client-facing firms and corporates through on-campus networking events, office visits, and mentor-mentee matching.
+            </p>
+          </div>
+        </div>
+
+        <div class="row page-divider">
+          <div class="col-sm-12">
+            Our Network
+          </div>
+        </div>
+
+        <div class="row" id="companies">
+          
+        </div>
+
+
+        <!-- Contact -->
+        <div class="row page-divider">
+          <div class="col-sm-12">
+              Contact Us
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-sm-6" align="right">
+            Connect On: <b><a href="https://www.facebook.com/groups/706407519393787/" target="_blank">Facebook</a> <small class="text-muted">|</small> <a href="https://www.linkedin.com/company/5271484?trk=prof-exp-company-name" target="_blank">LinkedIn</a></b>
+          </div>
+        </div>
+                                    
+        <div class="row" id="footer">    
+          <a href="#" class="pull-right">©Cornell Data Science</a>
+        </div>                           
+      </div>
+      <!-- /padding -->         
+    </div>
+  </div>
+  <!-- /main -->     
+</div>
+<!-- script references -->
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script>
+  $("#menu-toggle").click(function(e) {
+      e.preventDefault();
+      $("#box").toggleClass("toggled");
+      $("#menu-toggle").toggleClass("toggled");
+  });
+</script>
+</body>
+</html>

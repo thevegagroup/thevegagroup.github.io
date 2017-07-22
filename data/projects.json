@@ -1,0 +1,149 @@
+{
+	"sp16": {
+		"semester": "Spring 2016",
+		"projects": 
+		[{
+			"title": "TimeMate",
+			"pm": "Yordanos Goshu",
+			"team": ["Deeban Ramalingam", "Huajun Gu", "Nancy Gu", "Ronald Ho"],
+			"description": "We are creating TimeMate to help undergraduate students more quickly achieve what we are calling their golden proportion of academic to non-academic time allocation. TimeMate will create an interactive calendar that recommends unique personalized schedules that undergraduate students can tailor all on one platform to more efficiently see what they need to prioritize. TimeMate will unobtrusively assist in decision making that is based on leading a healthy and holistic college experience. In other words - think of TimeMate as training wheels for undergraduate students until they figure out what scheduling allows them to lead the type of lifestyle that is healthy and holistic in their unique way."
+		},{
+			"title": "Kaggle Challenge",
+			"pm": "Aish Rameshkumar",
+			"team": ["Lauren Sedita", "Leo Tang", "Jon Lee", "Michelle Ip", "Haotian Liu", "Michas Szacillo", "Steven Jaroslawski", "Dae Won Kim", "Auston Li", "Brian Shi"],
+			"description": "The focus of the project is to compete on Kaggle and create a prediction model given a dataset. The project will cover fundemental machine learning topics as well as statistics. Ultimately, the project is aimed to provide students with enough knowledge to compete in other Kaggle competitions or to further study machine learning."
+		},{
+			"title": "NIH Trauma Mortality Model",
+			"pm": "Michael",
+			"team": [],
+			"description": "Our main objective is to develop a trauma mortality prediction model with a high degree of accuracy. We will also conduct smaller scale analyses throughout the semester to answer new questions motivated by previous trauma research results. With time permitting, team members may conduct their own analyses in order to investigate questions of their own. We will be utilizing data from the National Trauma Data Bank, years 2008-2012, during the course of this project."
+		}]
+	},
+
+	"fa15": {
+		"semester": "Fall 2015",
+		"projects": 
+		[{
+			"title": "TimeMate",
+			"pm": "Yordanos Goshu",
+			"team": ["Nancy Gu", "Jorge Rocha", "David Gu"],
+			"description": "We are creating TimeMate to help undergraduate students more quickly achieve what we are calling their golden proportion of academic to non-academic time allocation. TimeMate will create an interactive calendar that recommends unique personalized schedules that undergraduate students can tailor all on one platform to more efficiently see what they need to prioritize. TimeMate will unobtrusively assist in decision making that is based on leading a healthy and holistic college experience. In other words - think of TimeMate as training wheels for undergraduate students until they figure out what scheduling allows them to lead the type of lifestyle that is healthy and holistic in their unique way."
+		},{
+			"title": "NBA Win/Loss Prediction",
+			"pm": "Jörg Doku",
+			"team": ["Charles Lai", "Nikita Dubnov", "Nimit Sohoni", "Yen Huang", "Alvin Zhu", "Jason Liao", "Young Chan Kim"],
+			"description": "Our project is to predict the outcome of NBA games with great accuracy. The finished product will be a website showing match predictions in real time for future NBA games. We'll be researching the latest discoveries in sports analytics as well as attempt to make unique discoveries to further the body of knowledge. We have large amounts of data to work with, making this an even more interesting project."
+		},{
+			"title": "Kaggle Challenge",
+			"pm": "Leo Tang",
+			"team": [],
+			"description": "The focus of the project is to compete on Kaggle and create a prediction model given a dataset. The project will cover fundemental machine learning topics as well as statistics. Ultimately, the project is aimed to provide students with enough knowledge to compete in other Kaggle competitions or to further study machine learning."
+		},{
+			"title": "Computational Finance Project",
+			"pm": "Mukund Sudarshan",
+			"team": [],
+			"description": "The focus of this project is to understand the applications of machine learning in finance. More specifically, we will try to predict market performance using using neural networks. By experimenting with various topologies, we will try to identify the best predictors and estimate future stock prices with a high degree of accuracy."
+		}]
+	},
+
+	"sp15": {
+		"semester": "Spring 2015",
+		"projects": 
+		[{
+			"title" : "Misinformation Response in Social Networks",
+			"pm" : "Alice Renegar",
+			"team" : [ "Genki Marshall", "Young Chan Kim", "Stephanie Wang", "Neha Deshmukh", "Vicky Wang", "Richard Wu"],
+			"description" : "This project will work with ongoing research regarding social media interactions (particularly Reddit) as well as providing members with an opportunity to experiment with data as well as practice processing / cleaning / scraping techniques surrounding the Reddit API. Additional areas pursued will be determined by member interest and experience."
+		},{
+			"title" : "Predicting the Future of Formula 1 Racing",
+			"pm": "Andrew Schaumberg",
+			"team": ["Nathaniel Davenport", "Patrick Nicholson", "Fiona Chin", "Karun Singh"],
+			"description" : "The formulaOne pipeline downloads, formats, and learns a linear classifier from a given number of years of race data, and predicts finishing positions of racers. More information on our BitBucket site."
+		},{
+			"title" : "Exploring Global Event Data",
+			"pm": "Andrew Schaumberg",
+			"team": ["Nathaniel Davenport", "Patrick Nicholson", "Fiona Chin", "Karun Singh"],
+			"description" : "The formulaOne pipeline downloads, formats, and learns a linear classifier from a given number of years of race data, and predicts finishing positions of racers. More information on our BitBucket site."
+		},{
+			"title" : "Cayuga County Watershed Pollution",
+			"pm": "Dave Fol",
+			"team": ["Joseph Fridman", "Calvin Ying", "Yang Guo", "Noah Rubin", "Kaushik Venkataraman"],
+			"description" : "Learn more about the project at the project GitHub page."
+		},{
+			"title" : "Environmental Futures Exhibition with CUSD",
+			"pm": "Yana Azova",
+			"team": ["Liaoruo Tang", "Randy Tung", "Melody Spencer", "Veena Calambur", "Mihir Paradkar"],
+			"description" : "The Environmental Futures Exhibit is a Cornell University Sustainable Design project, which aims to build an engaging and compelling installation that will redefine the conversation around climate change to be more action-oriented and personally impacting. The exhibit will demonstrate the efficacy of various sustainability technologies, policies and practices through the use of data visualization, video, textual content and live exhibit moderators. The collaboration with CDS will produce solutions-oriented data visualization, highlighting optimal strategies for implementing sustainable practices within an organization or a person’s individual actions."
+		},{
+			"title" : "Keystroke Dynamics on Smartphones",
+			"pm": "Sandeep Uppaluri",
+			"team": ["Akhila", "Tech Kuo", "Charles", "Rishab", "Trevor"],
+			"description" : "The formulaOne pipeline downloads, formats, and learns a linear classifier from a given number of years of race data, and predicts finishing positions of racers. More information on our BitBucket site."
+		},{
+			"title" : "Algorithmic Trading Strategies",
+			"pm": "Mukund Sudarshan",
+			"team": ["Alex Gatto", "Vidhan Bhatt", "Chirag Bharadwaj", "Kurt Shuster", "Mark Begun", "Sara Venkatraman"],
+			"description" : "We analyze historical and current price data to find trends and make predictions in stock data. We discover and implement a variety of trading strategies spanning several markets to find one that will work in the real-world. Our goal is to come up with an autonomous trading system that will be able to generate decent profit, minimizing risk as much as possible."
+		}]
+
+	},
+
+	"fa14": {
+		"semester" : "Fall 2014",
+		"projects" : 
+		[{
+			"title" : "Text Mining and Deep Learning",
+			"pm": "Tushar",
+			"team": ["Rahul Shetty", "Kent Huang", "Lu Yang", "Rishab Gupta", "Wei Qian", "Yayi Li"],
+			"description" : "Deep Belief Networks are low level, latent, and non-linear representation of input word vectors. Traditionally these algorithms have been slow on training and require heavy computation. Upcoming interest in the area of deep learning, particularly mostly in image recognition with promising results; makes it an interesting application to apply these algorithms to text settings. In recent years practical discovery of fundamental units in deep belief networks such as Restricted Boltzmann Machines (RBMs) and auto-encoders have opened new avenues alongside with cheaper computation to apply it into deeper settings and providing learning in abstracted and layered fashion."
+		},{
+			"title" : "Formula One Team Performance Prediction",
+			"pm": "Santosh Rayadhurgam",
+			"team": ["Andrew Schaumberg", "Daniel Wu", "Fanyi Zhang", "Gray Guo", "Guo Lio", "Siyu Yan"],
+			"description" : "We are currently parsing data available on the Formula One official website. We intend to work with data, taking into account the stability in the number of Grand Prix over years, new team additions, and changes to points table with time, to answer some important questions about the sport."
+		},{
+			"title" : "Reddit Recommendation Engine",
+			"pm": "Sandeep Uppaluri",
+			"team": ["Tiffany Wenting Li", "Yueming Wang", "Jerome Francis", "Michael Huang", "Shuo Cheng"],
+			"description" : "We will develop a recommendation engine to generate a set of post recommendations for users of the social news website Reddit given their prior voting history, previous posts, and comments. We plan to generate more comprehensive data from the links, posts, and users mentioned in the data dump by using the Reddit API. We will be attempting three variations of clustering."
+		},{
+			"title" : "Twitter Analysis for Travel",
+			"pm": "Janu Verma",
+			"team": ["Neha Deshmukh", "Naman Agrawal", "William Sanders", "Kaushik Venkataraman", "James Asselin"],
+			"description" : "The idea of the project is to build a NYC travel app on Twitter. The end product will be a web-app which will have information in the form of interactive visualizations in D3.js relevant for anyone planning a trip to NYC in near future or is already in NYC. The framework should extend to any city. Various data mining and analysis technique will be utilized for this project."
+		},{
+			"title" : "Optimizing Trellis Quantization with Machine Learning",
+			"pm": "Chetan Gupta",
+			"team": ["Daniel Liu", "Nimit Sohoni", "Jeff Tian", "Yawen Yang", "Liang Zhange", "Femi Adegunloye"],
+			"description" : "Optimize JPEG Compression algorithm called Trellis Quantization to encode image data faster by leveraging previously learned image encodings for the Quantize Tables."
+		},{
+			"title" : "EEG Signal Classification with SVMs",
+			"pm": "Ilan Filonenko",
+			"team": ["Sara Venkatraman", "Qile Yang", "Suhani Shorewala", "Akhila Ananthram", "David Folarin", "Gaby Haam", "Minish Tripathi", "Veena Calambur", "Charles Brynes", "Kelsey Duncan"],
+			"description" : "The purpose of the project is to use data science tools to describe and classify each stage in the sleep cycle by analyzing the brain waves that are sent between neurons when you are experiencing each of these stages. By using EEG, electroencephalography, we can capture these signals and pass them through our machine learning algorithms for classification."
+		}]
+	},
+
+	"sp14": {
+		"semester" : "Fall 2014",
+		"projects" : 
+		[{
+			"title" : "Entegration, Inc.",
+			"pm": "Alyse SanFilippo",
+			"team": ["William Sanders", "Jesse Wu", "James Asselin", "Veena Calambur"],
+			"description" : ""
+		},{
+			"title" : "Digit Recognize",
+			"pm": "Andrew Yap",
+			"team": ["Sally Shi", "Eshan Wagh", "Brian Luo"],
+			"description" : ""
+		},{
+			"title" : "Amazon Product Review Analysis Engine",
+			"pm": "Chetan Gupta",
+			"team": ["Nimit Sohoni", "Stephen Jacobs", "Kevin Ko", "Nikita Dubnov"],
+			"description" : ""
+		}]
+	}
+
+
+}

@@ -1,0 +1,41 @@
+{
+	"eboard": {
+		"pmcContact" : {
+			"title" : "President & Education Lead",
+			"name" : "Dae Won Kim",
+			"extLink" : "https://www.linkedin.com/in/dae-won-kim-504546119/en",
+			"major": "Operations Research '17",
+			"imgName": "../img/eboard/daewon.jpg"
+		}, 
+		"eduContact" : {
+			"title" : "Operations Lead",
+			"name" : "Chase Thomas",
+			"extLink" : "https://www.linkedin.com/in/chasethomas1",
+			"major": "Information Science '19",
+			"imgName": "../img/eboard/chase.jpg"
+		},
+		"marketingContact" : {
+			"title" : "Outreach Lead",
+			"name" : "Jon Lee",
+			"extLink" : "https://www.linkedin.com/in/jonathan-lee-a56173b5",
+			"major": "Computer Science '18",
+			"imgName": "../img/eboard/jon.jpg"
+		}, 
+		"commContact" : {
+			"title" : "Marketing/Recruitment Lead",
+			"name" : "Sourabh Chakraborty",
+			"extLink" : "https://www.linkedin.com/in/chakrabortysourabh",
+			"major": "Computer Science '20",
+			"imgName": "../img/eboard/sourabh.jpg"
+		},
+		"financeContact" : {
+			"title" : "Communications Lead",
+			"name" : "Michelangelo Harris",
+			"extLink" : "https://www.linkedin.com/pub/abhinav-saikia/a4/1b2/315",
+			"major": "Operations Research '19",
+			"imgName": "../img/eboard/mic.jpg"
+		},
+	},
+	"alumni": []
+
+}
