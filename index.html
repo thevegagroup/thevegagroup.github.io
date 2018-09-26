@@ -1,126 +1,149 @@
-<!DOCTYPE html>
-<html lang="en">
-	<head>
-		<meta http-equiv="content-type" content="text/html; charset=UTF-8">
-		<meta charset="utf-8">
-		<title>The Vega Group</title>
-		<meta name="generator" content="Bootply" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-		<link href="css/bootstrap.min.css" rel="stylesheet">
-    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
-    <link rel="icon" href="img/favicon.ico" type="image/x-icon">
-		<!--[if lt IE 9]>
-			<script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
-		<![endif]-->
-		<link href="css/styles.css" rel="stylesheet">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script src="./js/index.js"></script>
-	</head>
-<body>
-<div id="box" class="toggled">
-  <!-- sidebar -->
-  <div id="sidebar">
-    <!-- <a class="logo" href="#"> -->
-    <img src="img/bluevega.png" class="bluevega">
-    <!-- </a> -->
-    <ul class="nav">
-      <li class="active"><a href="#">Home</a></li>
-      <li><a href="pages/strategy.html">Strategy</a></li>
-      <li><a href="pages/members.html">Executive Board</a></li>
-      <li><a href="pages/apply.html">Apply Now</a></li>
-    </ul>
-  </div>
-  <!-- /sidebar -->
-        
-    <!-- main -->
-  <div class="row"  id="main">   
-    <div class="column col-sm-12">
-      <div class="menubutton">
-        <a href="#menu-toggle" class="btn btn-default toggled" id="menu-toggle">
-            <div class="menubar"></div>
-            <div class="menubar"></div>
-            <div class="menubar"></div>
-        </a>
-      </div>
+<html lang="en"><head>
+		<title>Renaissance Institutional</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<link href="/css/jquery/jquery-ui.css?ts=1475530712000" type="text/css" rel="stylesheet">
+		<link href="/css/rentec.css?ts=1461678380000" type="text/css" rel="stylesheet">
+		<link href="/css/renfund.css?ts=1527201040000" type="text/css" rel="stylesheet">
+		<link href="/css/cookieconsent.min.css?ts=1527201040000" type="text/css" rel="stylesheet">
+		
+				
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+		
+		<style type="text/css">
+			.container *, .footer {
+				font-family: Open Sans, sans-serif;
+			}
+			
+			p.pagedesc {
+				font-size: 17px;
+				line-height: 26px;
+			}
+			
+			p.secondarydesc {
+				font-size: 18px;
+				font-weight: bold;
+				line-height: 26px;
+			}
+			
+			div.position {
+				font-family: Open Sans, sans-serif;
+				border: 1px solid #d3d3d3;
+				cursor: pointer;
+				margin-bottom: 10px;
+				padding: 10px;
+				position: relative;
+				width: 1000px;
+			}
+			
+			div.position:hover {
+				background-color: #ededed;
+			}
+			
+			div.position div.title {
+				color: #682929;
+				font-size: 19px;
+				margin-bottom: 2px;
+				text-transform: uppercase;
+			}
+			
+			div.position div.location {
+				font-size: 14px;
+			}
+			
+			div.position .moreinfo {
+				position: absolute;
+				top: 13px;
+				right: 30px;
+			}
+			
+			.newbutton {
+				background: rgba(163,0,0,1);
+				background: -moz-linear-gradient(top, rgba(163,0,0,1) 0%, rgba(128,0,0,1) 100%);
+				background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(163,0,0,1)), color-stop(100%, rgba(128,0,0,1)));
+				background: -webkit-linear-gradient(top, rgba(163,0,0,1) 0%, rgba(128,0,0,1) 100%);
+				background: -o-linear-gradient(top, rgba(163,0,0,1) 0%, rgba(128,0,0,1) 100%);
+				background: -ms-linear-gradient(top, rgba(163,0,0,1) 0%, rgba(128,0,0,1) 100%);
+				background: linear-gradient(to bottom, rgba(163,0,0,1) 0%, rgba(128,0,0,1) 100%);
+				border-radius: 2px;
+				filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a30000', endColorstr='#800000', GradientType=0 );
+				color: #fff;
+				box-shadow: 0 0 0 1px rgba(0,0,0,0.25), 0 1px 3px rgba(0,0,0,0.3);
+				border: none;
+				text-transform: uppercase;
+				text-shadow: none;
+				font-size: 11px;
+				font-weight: bold;
+				height: 30px;
+				font-family: Open Sans, sans-serif;
+			}
+			
+			table.event-info th {
+				width: 100px;
+			}
+			
+			table.event-info th, table.event-info td {
+				padding-bottom: 10px;
+			}
+		</style>
 
-      <!-- padding -->                   
-      <div class="padding">
-        <div class = "row">
-          <div class="col-sm-12" align="center">
-            <img src="img/vegalogo.png" style="width:50%; height:50%;">
-          </div>
-        </div>
-
-        <!-- What We Do -->
-        <div class="row page-divider">
-          <div class="col-sm-12">
-              Trading Strategies
-          </div>
-        </div>
-            
-        <div class="row wwdEntry">    
-          <div class="col-sm-4">
-            <div class="wwdEntryLabel">
-              Fundamental Analysis
-            </div>
-            <p class="wwdEntryDes">
-              We interface with companies to learn about their business structure.  We examine their balance sheets and consider earnings, future growth and return on equity when making investing decisions.
-            </p>
-          </div>
-          <div class="col-sm-4">
-            <div class="wwdEntryLabel">
-              Technical Analysis 
-            </div>
-            <p class="wwdEntryDes">
-              We use quantiative algorithms to monitor securities and provide additional insight in our investing decisions.  We design mathematical models that are then implemented by our coding team.  
-            </p>
-          </div>
-          <div class="col-sm-4">
-            <div class="wwdEntryLabel">
-              Trigger Analysis
-            </div>
-            <p class="wwdEntryDes">
-              We closely monitor the news for market triggers.  Whether it's an FDA approval or an acquisition, we are on the constant lookout for news that can alter a company's trajectory.   
-            </p>
-          </div>
-        </div>
-
-        <div class="row page-divider">
-          <div class="col-sm-12">
-            Our Network
-          </div>
-        </div>
-
-        <div class="row" id="companies">
-          
-        </div>
-
-
-        <!-- Contact -->
-        <div class="row page-divider">
-          <div class="col-sm-12">
-              Learn More
-          </div>
-        </div>
-                                   
-        <div class="row" id="footer">    
-          <a href="#" class="pull-right">The Vega Group</a>
-        </div>                           
-      </div>
-      <!-- /padding -->         
-    </div>
-  </div>
-  <!-- /main -->     
+		<!-- Libraries -->
+		<script async="" src="https://www.google-analytics.com/analytics.js"></script><script src="/js/jquery/jquery-1.11.3.js?ts=1537823588000" type="text/javascript"></script>
+		<script src="/js/jquery/jquery-ui.js?ts=1475530712000" type="text/javascript"></script>
+		<script src="/js/jquery/jquery.rentec.js?ts=1483128022000" type="text/javascript"></script>
+		
+		<!-- Global -->
+		<script src="/js/rentec.js?ts=1533758808000" type="text/javascript"></script>
+		<script src="/js/cookieconsent.min.js?ts=1527201040000"></script>
+		<script src="/js/cookieconsent_config.js?ts=1527775160000"></script>
+		
+				
+		<script>
+			if (document.location.hostname.search("rentec.com") !== -1) {
+				(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+				(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+				m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+				})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+				
+				ga('create', 'UA-87158132-1', 'auto');
+				ga('send', 'pageview');
+				ga('set', 'anonymizeIp', true);
+			}
+		</script>
+	<style></style></head>
+	<body><div role="dialog" aria-live="polite" aria-label="cookieconsent" aria-describedby="cookieconsent:desc" class="cc-window cc-banner cc-type-info cc-theme-classic cc-bottom cc-color-override--1508703904 cc-invisible" style="display: none;"><!--googleoff: all--><span id="cookieconsent:desc" class="cc-message"><span style="display: inline-block; text-align: left; line-height: 30px;">This website uses cookies. By continuing to use this website, you consent to the use of cookies.<br>We have added a privacy policy to implement the European Union's General Data Protection Regulation. To view the policy, please <a class="cc-link" href="Home.action?privacyPolicy=true" style="opacity: 1;" target="_blank">click here</a>.</span></span><span aria-label="dismiss cookie message" role="button" tabindex="0" class="cc-close">⨂</span><!--googleon: all--></div>
+		<div class="rief">
+			<div class="header">
+				<div class="generic-header">
+					<img src="/img/logo-rief.png" class="logo">
+				</div>
+			</div>
+			<div class="topnav">
+	<div class="topnav-left">
+		<div class="item tier1  active "><a href="/Home.action?index=true">Home</a></div>
+		<div class="item tier1 "><a href="https://www.rentec.com/Careers.action">Careers</a></div>
+		<div class="item tier1 "><a href="https://www.renfund.com/">Investors</a></div>
+	</div>
+</div>			<div class="container" style="min-height: auto">
+	<p class="pagedesc" style="font-size: 18px">Renaissance Technologies is a quantitative investment management company trading in global financial markets, dedicated to producing exceptional returns for its investors by strictly adhering to mathematical and statistical methods.</p>
+	<div class="text-center" style="margin-top: 10px">
+		<hr>
+		<span style="font-weight: bold; font-size: 18px">Long Island</span>
+		<br>
+		<b>The Vega Group LLC</b><br>
+		Cornell Law School <br>
+		Ithaca, New York 11733<br>
+		USA
+		<hr>
+		<span style="font-weight: bold; font-size: 18px">New York City</span>
+		<br>
+		<b>The Vega Group LLC</b>
+	</div>
 </div>
-<!-- script references -->
-<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
-<script src="js/bootstrap.min.js"></script>
-<script>
-  $("#menu-toggle").click(function(e) {
-      e.preventDefault();
-      $("#box").toggleClass("toggled");
-      $("#menu-toggle").toggleClass("toggled");
-  });
-</script>
-</body>
-</html>
+			<div class="footer">
+				Copyright © 2018 The Vega Group LLC. All rights reserved. <a style="color: #800000;" href="/Home.action?privacyPolicy=true">Privacy Policy</a><span style="font-size: 18px; margin: 0 5px;">|</span><a style="color: #800000;" href="/Home.action?euPrivacyPolicy=true">EU GDPR Policy</a>
+			</div>
+		</div>
+	
+
+</body></html>
